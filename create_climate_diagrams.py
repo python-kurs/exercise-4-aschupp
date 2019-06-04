@@ -113,12 +113,12 @@ create_climate_diagram(df = garmisch,
                        temp_col = " TMK", 
                        prec_col = " RSK", 
                        title = "Garmisch 2018", 
-                       filename = data_dir + "results/Garmisch2018.png", 
+                       filename = data_dir + "results/Garmisch_2018.png", 
                        temp_min = -15, temp_max= 20, prec_min= 0, prec_max= 370)
 
 create_climate_diagram(df = zugspitze, 
                        temp_col = " TMK", 
                        prec_col = " RSK", 
                        title = "Zugspitze 2018", 
-                       filename = data_dir + "results/Zugspitze2018.png", 
+                       filename = data_dir + "results/Zugspitze_2018.png", 
                        temp_min = -15, temp_max = 20, prec_min = 0, prec_max = 370)
